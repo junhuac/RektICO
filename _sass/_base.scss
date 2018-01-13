@@ -1,0 +1,240 @@
+html {
+  background: #f6f9fc;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-family: Open Sans, Segoe UI, sans-serif;
+}
+
+.content {
+  background: #f6f9fc;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Oswald';
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  font-family: 'Oswald';
+  text-transform: uppercase;
+  font-weight: 300 !important;
+  letter-spacing: 0.3px;
+}
+
+.intro {
+  height: 440px;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: #504cff;
+  z-index: 1;
+  .box {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    z-index: 3;
+    margin-top: 35px;
+    img {
+      height: 200px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    h2, h4 {
+      text-align: center;
+      color: #FFF;
+      text-transform: uppercase;
+      margin-top: 25px;
+    }
+    h4 {
+      font-weight: 300;
+      margin-top: 5px;
+    }
+    .buttons {
+      margin-left: auto;
+      margin-right: auto;
+      width: 300px;
+      margin-top: 25px;
+    }
+  }
+  #particles {
+    position: absolute;
+    top: 0;
+    z-index: 2;
+  }
+}
+
+.main {
+  background: #FFF;
+  margin-top: 440px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  p {
+    margin-top: 4px;
+  }
+  .progress {
+    height: 30px;
+  }
+  button {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 20px;
+  }
+}
+
+.gblock {
+  background: #f6f9fc;
+  p {
+    width: 60%;
+    float: left;
+    margin-top: 5px;
+  }
+  img {
+    width: 35%;
+    float: right;
+  }
+  @media all and (max-width: 700px) {
+    img {
+      display: none;
+    }
+    p {
+      width: 100%;
+    }
+  }
+}
+
+.wblock {
+  background: #FFF;
+  margin-top: 20px;
+  h4 {
+    padding-top: 15px;
+  }
+  .partners {
+    margin-top: 10px;
+    height: 190px;
+    .partner {
+      background-color: #f6f9fc;
+      max-width: 150px;
+      height: 150px;
+      float: left;
+      padding: 5px;
+      border-radius: 4px;
+      margin: 4px;
+      img {
+        height: 100%;
+        width: 100%;
+      }
+    }
+    @media all and (max-width: 1200px) {
+      height: 170px;
+      .partner {
+        height: auto;
+        width: 12%;
+      }
+    }
+  }
+}
+
+.roadmap {
+  .item {
+    margin-top: 15px;
+    float: left;
+    .inner {
+      background: #FFF;
+      border-radius: 4px;
+      span {
+        text-align: center;
+        display: block;
+        font-family: 'Oswald';
+        text-transform: uppercase;
+        font-weight: 300 !important;
+        padding-top: 10px;
+      }
+      ul {
+        margin-top: 10px;
+        padding-bottom: 15px;
+      }
+    }
+  }
+}
+
+.team {
+  height: 380px;
+  .member {
+    margin-top: 15px;
+    float: left;
+    .inner {
+      display: block;
+      height: 340px;
+      background: #f6f9fc;
+      border-radius: 4px;
+      text-align: center;
+      .photo {
+        width: 100%;
+        height: 200px;
+        background-size: cover !important;
+        border: 1px solid #f6f9fc;
+      }
+      h4 {
+        margin-top: -5px;
+      }
+      span {
+        text-transform: uppercase;
+        font-family: 'Oswald';
+        font-weight: 300;
+      }
+    }
+  }
+  @media all and (max-width: 1200px) {
+    height: 420px;
+    .member {
+      .inner {
+        height: 370px;
+      }
+    }
+  }
+  @media all and (max-width: 500px) {
+    //height: 2580px;
+    .member {
+      .inner {
+        height: 370px;
+      }
+    }
+  }
+}
+
+.advisors {
+  .title {
+    margin-top: -20px;
+  }
+
+  .team {
+    .inner {
+      height: 250px;
+    }
+    &:last-of-type {
+      height: 290px;
+    }
+  }
+  @media all and (max-width: 500px) {
+    .team {
+      &:last-of-type {
+        height: 1100px;
+      }
+    }
+  }
+}
+
+.title {
+  margin-top: 25px;
+}
+
+.footer {
+  text-align: center;
+  font-size: 11px;
+  padding: 20px;
+}

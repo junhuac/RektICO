@@ -1,0 +1,15 @@
+# Build settings
+markdown: kramdown
+sass:
+    style: compressed
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - about.md
+  - LICENSE
+
+# Site settings
+title: Raiden Elektron Key Token (REKT)
+eth_address: '0x2AC79bA08f66f7E83B990C0a6cbE4d63a6299B44'
+repo_url: https://github.com/bommels
+twitter_url: https://twitter.com/TerryBommels
